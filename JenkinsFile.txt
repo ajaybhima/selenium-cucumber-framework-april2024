@@ -14,7 +14,7 @@ pipeline {
                        alwaysLinkToLastBuild: false, 
                        keepAll: false, 
                        reportDir: 'target/', 
-                       reportFiles: 'cucumber-report.html', 
+                       reportFiles: 'cucumber-reports.html', 
                        reportName: 'HTML Report', 
                        reportTitles: '', 
                        useWrapperFileDirectly: true])
