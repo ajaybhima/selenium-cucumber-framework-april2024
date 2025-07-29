@@ -6,7 +6,7 @@ Feature: Validating all the Search scenarios under this feature
     When User search for "India" with language as "en" in home page
     And user clicks on Search icon in homepage
     Then Wiki content page has been displayed
-    And user validates header text "India707" in Content page
+    And user validates header text "India" in Content page
     And user closes the browser
 
     @SmokeTest7
