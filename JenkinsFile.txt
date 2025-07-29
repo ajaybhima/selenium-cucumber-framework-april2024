@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                bat mvn -D clean test -Dcucumber.filter.tags="@SmokeTest"
+                bat "mvn -D clean test -Dcucumber.filter.tags=@SmokeTest"
             }
         }    
         stage('Publish Cucumber Reports') {
